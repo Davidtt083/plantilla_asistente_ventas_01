@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Home</title>
+</head>
+
+<body>
+    <h1>Bienvenido a la Página Home</h1>
+
+    Botón 1: Redirige a chatbot_home
+    <form action="{{url_for('chatbot.app1') }}">
+        <button type="submit">Ir al Chatbot</button>
+    </form>
+
+
+    Botón 2: Redirige a chatbot_home
+    <form action="{{url_for('chatbot.app2') }}">
+        <button type="submit">Ir al Chatbot</button>
+    </form>
+</body>
+
+</html>
